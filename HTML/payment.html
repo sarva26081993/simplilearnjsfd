@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .button1 {
+        font-size: 20px;
+        background-color: crimson;
+      }
+
+      .button1:hover {
+        font-size: 25px;
+        background-color: green;
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: #b36d12;
+      }
+    </style>
+  </head>
+  <body>
+    <form style="background-color: coral;">
+      <h2 style="background-color: aquamarine;" color="green">Please Provide Credit/Debit Card Details 💳💳💳💳💳💳</h2>
+      Name as present on Card:<input
+        type="text"
+        placeholder="Name as appearing on card"
+      /><br />
+      CVV: <input type="password" placeholder="Enter 3 digit number" /> <br />
+      Expiry Details <input type="text" placeholder="MM/YY" /><br />
+      Remember Card Details:
+      <input type="radio" name="RememberCard" value="Yes" /> Yes
+      <input type="radio" name="RememberCard" value="No" /> No <br />
+    </form>
+    <input type="button" value="Submit" class="button1" />
+  </body>
+</html>
